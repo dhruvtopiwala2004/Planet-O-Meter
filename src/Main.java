@@ -10,6 +10,7 @@ public class Main {
         System.out.println("Welcome " + name + "!");
 
         String answer = "Yes";
+        int paradiseCount = 0;
 
         while (answer.equalsIgnoreCase("Yes")) {
 
@@ -34,6 +35,7 @@ public class Main {
             switch (luxuryRating) {
                 case 5:
                     System.out.println("Absolute Paradise!");
+                    paradiseCount++;
                     break;
 
                 case 4:
@@ -56,6 +58,8 @@ public class Main {
             System.out.println("Do you want to evaluate another planet? Yes/No");
             answer = input.nextLine();
         }
+
+        System.out.println("You have discovered " + paradiseCount + " paradise planets today!.");
 
         System.out.println("Thank you for using Planet-O-Meter!");
 

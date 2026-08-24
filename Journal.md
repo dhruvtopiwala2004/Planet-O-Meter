@@ -35,3 +35,12 @@ At the end of each loop, the program asks if the user wants to evaluate another 
 If the user enters "No", the while condition becomes false and the loop stops.
 I also used an extra nextLine() after nextInt() to clear the leftover newline.
 
+## Phase 5
+I created paradise counter before the while loop.
+I started the counter at 0.
+When the luxury rating is 5, I increase the counter by 1.
+I placed the counter outside the loop so it keep its value when another planet is evaluated.
+If I put the counter inside the loop, it would reset to 0 every time the loop repeats.
+After the loop ends, the program displays the total number of paradise planets.
+
+
