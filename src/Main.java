@@ -21,6 +21,30 @@ public class Main {
         }
         else{
             System.out.println("The temperature is acceptable.");
+
+        }
+
+        System.out.println("Enter the luxury rating of the planet (1-5):");
+        int luxuryRating = input.nextInt();
+
+        switch (luxuryRating) {
+            case 5:
+                System.out.println("Absolute Paradise!");
+                break;
+
+            case 4:
+            case 3:
+                System.out.println("Quite Comfortable.");
+                break;
+
+            case 2:
+            case 1:
+                System.out.println("Roughing it in the cosmos.");
+                break;
+
+            default:
+                System.out.println("Invalid Luxury rating.");
+                break;
         }
 
     }
