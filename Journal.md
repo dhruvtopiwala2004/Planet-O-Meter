@@ -25,3 +25,13 @@ Ratings 3 and 4 can share the same output.
 Ratings 1 and 2 can also share the same output.
 The default case handles any number that is not between 1 and 5.
 An if/else if statement could also work, but switch is simpler for checking specific values.
+
+## Phase 4
+I used while loop to repeat the planet evaluation.
+I created a String variable called answer equals "Yes".
+The loop continues while the answer equals "Yes".
+I used equalsIgnoreCase() so the user can type yes or Yes.
+At the end of each loop, the program asks if the user wants to evaluate another planet.
+If the user enters "No", the while condition becomes false and the loop stops.
+I also used an extra nextLine() after nextInt() to clear the leftover newline.
+
